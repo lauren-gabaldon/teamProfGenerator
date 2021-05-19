@@ -172,7 +172,7 @@ function generateEmpCard(employee) {
             <div class="card-body">
               <p class="card-text">ID:${employee.id} </p>
               <p class="card-text">Email: <a href="mailto: ${employee.email} ">${employee.email}</a> </p>
-              <p class="card-text">Office number: ${employee.officeNum} </p>
+              <p class="card-text">Office number: ${employee.officeNumber} </p>
             </div>
           </div>`;
       break;
@@ -185,7 +185,7 @@ function generateEmpCard(employee) {
             Email: <a href="mailto: ${employee.email} ">${employee.email}</a> </p>
           <p class="card-text">
             GitHub:
-            <a href="https://github.com/${employee.username}" target="_blank">${employee.username}</a>
+            <a href="https://github.com/${employee.gitName}" target="_blank">${employee.gitName}</a>
           </p>
         </div>
       </div>`;
