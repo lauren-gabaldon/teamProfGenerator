@@ -1,0 +1,29 @@
+{
+  "name": "teamProfGenerator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "inquirer": "^8.0.0"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lauren-gabaldon/teamProfGenerator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lauren-gabaldon/teamProfGenerator/issues"
+  },
+  "homepage": "https://github.com/lauren-gabaldon/teamProfGenerator#readme"
+}
